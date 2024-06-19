@@ -1,0 +1,42 @@
+.container_admin {
+    border: 1px solid #969191;
+    padding: 20px;
+    width: 200px;
+    margin-top: 50px;
+    height: 250px; /* Задаем фиксированную высоту контейнера */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Распределяем элементы по вертикали */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header_admin {
+    margin-top: 20px;
+    margin-bottom: 0; /* Убираем нижний отступ */
+    padding: 0; /* Убираем внутренние отступы */
+    border: none; /* Убираем рамку */
+}
+
+.button-container {
+    width: 100%; /* Занимаем всю ширину контейнера */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем кнопки по горизонтали */
+}
+
+.button {
+    margin-bottom: 10px;
+    width: 100%; /* Делаем кнопки растягиваемыми по ширине контейнера */
+    padding: 10px; /* Добавляем внутренние отступы для кнопок */
+    border: 1px solid #969191; /* Добавляем рамку для кнопок */
+    background-color: #f0f0f0; /* Устанавливаем цвет фона кнопок */
+    cursor: pointer; /* Меняем курсор при наведении на кнопку */
+    transition: background-color 0.3s; /* Добавляем плавный переход для фона */
+}
+
+.button:hover {
+    background-color: #e0e0e0; /* Изменяем цвет фона при наведении */
+}

@@ -1,0 +1,89 @@
+.device-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 140px;
+}
+
+.product-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Добавляем возможность переноса строк */
+}
+
+.product-image {
+  flex: 1 1 50%; /* Гибкая ширина */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details {
+  flex: 1 1 40%; /* Гибкая ширина */
+  margin-left: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title-section {
+  margin-bottom: 10px;
+}
+
+.title-section h2 {
+  font-size: 24px;
+}
+
+.size-price-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.size-selector {
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.add-to-cart,
+.add-to-favorites {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-to-cart:hover,
+.add-to-favorites:hover {
+  background-color: #0056b3;
+}
+
+.section {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+

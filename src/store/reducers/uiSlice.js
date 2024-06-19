@@ -21,3 +21,4 @@ const uiReducer = createSlice({
 
 export const { changeCurrentCategory } = uiReducer.actions
 export default uiReducer.reducer
+
